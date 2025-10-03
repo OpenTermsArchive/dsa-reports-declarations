@@ -1,0 +1,58 @@
+{
+  "@opentermsarchive/engine": {
+    "recorder": {
+      "versions": {
+        "storage": {
+          "git": {
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/demo-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:OpenTermsArchive/demo-versions.git",
+            "path": "./data/versions"
+          }
+        }
+      },
+      "snapshots": {
+        "storage": {
+          "git": {
+            "repository": "git@github.com:OpenTermsArchive/demo-snapshots.git",
+            "path": "./data/snapshots"
+          }
+        }
+      }
+    },
+    "fetcher": {
+      "language": "en"
+    },
+    "notifier": {
+      "sendInBlue": {
+        "updatesListId": 0,
+        "updateTemplateId": 0
+      }
+    },
+    "reporter": {
+      "type": "github",
+      "repositories": {
+        "declarations": "OpenTermsArchive/demo-declarations",
+        "versions": "OpenTermsArchive/demo-versions",
+        "snapshots": "OpenTermsArchive/demo-snapshots"
+      }
+    },
+    "dataset": {
+      "title": "demo",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/demo-versions"
+    },
+    "collection-api": {
+      "port": 3000,
+      "basePath": "/collection-api"
+    },
+    "logger": {
+      "timestampPrefix": false
+    }
+  },
+  "@opentermsarchive/federation-api": {
+    "port": 3003,
+    "basePath": "/federation-api",
+    "logger": {
+      "timestampPrefix": false
+    }
+  }
+}

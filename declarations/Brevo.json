@@ -1,0 +1,9 @@
+{
+  "name": "Brevo",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.brevo.com/legal/privacypolicy/",
+      "select": "main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "UptimeRobot",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://uptimerobot.com/privacy/",
+      "select": "main"
+    },
+    "Terms of Service": {
+      "fetch": "https://uptimerobot.com/terms/",
+      "select": "main"
+    }
+  }
+}

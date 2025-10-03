@@ -1,0 +1,42 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    uses: "./.github/workflows/test.yml"
+
+  deploy:
+    needs: [ test ]
+    # Do not run on the creation of the repository
+    if: github.event.created != true
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get target server hostname
+        id: get_hostname
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq '.all.hosts.* | key' deployment/inventory.yml
+      - name: Get target server fingerprint
+        id: get_fingerprint
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq '.all.hosts.*.ed25519_fingerprint' deployment/inventory.yml
+      - name: Set up SSH
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          known_hosts: ${{ steps.get_hostname.outputs.result }} ssh-ed25519 ${{ steps.get_fingerprint.outputs.result }}
+      - run: echo "${{ secrets.ANSIBLE_VAULT_KEY }}" > deployment/vault.key
+      - run: pip install --upgrade setuptools
+      - run: pip install 'ansible ~= 9.4.0'
+      - name: Install dependencies
+        working-directory: ./deployment
+        run: ansible-galaxy collection install -p ./ -r requirements.yml --force
+      - name: Deploy
+        working-directory: ./deployment
+        run: ansible-playbook ./ansible_collections/opentermsarchive/deployment/playbooks/deploy.yml

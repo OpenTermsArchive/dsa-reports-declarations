@@ -1,0 +1,42 @@
+{
+  "projectName": "demo-declarations",
+  "projectOwner": "OpenTermsArchive",
+  "files": [
+    ".all-contributors.md"
+  ],
+  "contributors": [
+    {
+      "login": "MattiSG",
+      "name": "Matti Schneider",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222463?v=4",
+      "profile": "https://mattischneider.fr/",
+      "contributions": [
+        "data",
+        "code"
+      ]
+    },
+    {
+      "login": "Ndpnt",
+      "name": "Nicolas Dupont",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1098708?v=4",
+      "profile": "https://github.com/Ndpnt",
+      "contributions": [
+        "data",
+        "code"
+      ]
+    },
+    {
+      "login": "clementbiron",
+      "name": "Clément Biron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/364319?v=4",
+      "profile": "https://clementbiron.com/",
+      "contributions": [
+        "data",
+        "code"
+      ]
+    }
+  ],
+  "repoType": "github",
+  "commitConvention": "none",
+  "contributorsPerLine": 7
+}

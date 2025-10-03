@@ -1,0 +1,41 @@
+id: demo
+name: Demo
+tagline: Services used by Open Terms Archive
+description: |
+  The **Demo** collection tracks changes to the terms of use of services used by Open Terms Archive.
+  
+  This provides a reference collection for best practices and enables the Open Terms Archive Core Team to be a user of the software it produces.
+dataset: https://github.com/OpenTermsArchive/demo-versions/releases
+declarations: https://github.com/OpenTermsArchive/demo-declarations
+versions: https://github.com/OpenTermsArchive/demo-versions
+snapshots: https://github.com/OpenTermsArchive/demo-snapshots
+donations: https://opencollective.com/opentermsarchive
+logo: https://opentermsarchive.org/images/collections/demo.png
+languages: [en]
+jurisdictions: [EU]
+trackingPeriods:
+  - startDate: 2023-04-23
+    schedule: "30 */12 * * *"
+    serverLocation: Roubaix, FR
+governance:
+  Ministry for Europe and Foreign Affairs:
+    url: https://www.diplomatie.gouv.fr/en/
+    logo: https://opentermsarchive.org/images/contributors/meae.png
+    roles: [host, sponsor]
+  Open Terms Archive:
+    url: https://opentermsarchive.org
+    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+    roles: [sysadmin, curator, maintainer]
+
+i18n:
+  fr: 
+    name: Démo
+    tagline: Services utilisés par Open Terms Archive
+    description: | 
+      La collection **Demo** suit les modifications apportées aux conditions d'utilisation des services utilisés par Open Terms Archive.
+      
+      Cela fournit une collection de référence pour les bonnes pratiques et permet à l'équipe coeur d’Open Terms Archive d'être elle-même utilisatrice du logiciel qu'elle produit.
+    governance:
+      Ministry for Europe and Foreign Affairs:
+        name: Ministère de l'Europe et des Affaires étrangères
+        url: https://www.diplomatie.gouv.fr

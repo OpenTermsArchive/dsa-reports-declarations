@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "lint": "ota lint",
+    "lint:fix": "ota lint -- --fix",
+    "test": "ota lint && ota validate declarations",
+    "test:schema": "ota validate declarations --schema-only",
+    "test:modified": "ota validate declarations --modified",
+    "test:metadata": "ota validate metadata",
+    "start": "ota track",
+    "start:collection-api": "ota serve",
+    "start:schedule": "npm run start -- --schedule",
+    "start:federation-api": "ota-federation-api serve",
+    "start:modified": "git diff -z --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | tr '\\0' '\\n' | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services",
+    "dataset": "ota dataset",
+    "dataset:schedule": "npm run dataset -- --publish --remove-local-copy --schedule"
+  },
+  "dependencies": {
+    "@opentermsarchive/engine": "^9.1.0",
+    "@opentermsarchive/federation-api": "~2.1.0"
+  }
+}

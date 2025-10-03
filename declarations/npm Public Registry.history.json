@@ -1,0 +1,26 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://docs.npmjs.com/policies/privacy",
+      "select": "#skip-nav",
+      "remove": "details",
+      "validUntil": "2023-10-23T12:30:05Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://docs.npmjs.com/policies/privacy",
+      "select": "#skip-nav",
+      "remove": "details",
+      "validUntil": "2023-10-23T12:30:05Z"
+    }
+  ],
+  "Copyright Claims Policy": [
+    {
+      "fetch": "https://docs.npmjs.com/policies/privacy",
+      "select": "#skip-nav",
+      "remove": "details",
+      "validUntil": "2023-10-23T12:30:05Z"
+    }
+  ]
+}
