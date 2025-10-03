@@ -1,0 +1,11 @@
+{
+  "name": "LinkedIn",
+  "terms": {
+    "Systemic Risks — 2023": {
+      "fetch": "https://content.linkedin.com/content/dam/help/tns/en/LinkedIn-2022-2023-DSA-Systemic-Risk-Assessment-Report.pdf"
+    },
+    "Systemic Risks — 2024": {
+      "fetch": "https://content.linkedin.com/content/dam/help/tns/en/LinkedIn-2023-2024-DSA-Systemic-Risk-Assessment-Report.pdf"
+    }
+  }
+}
