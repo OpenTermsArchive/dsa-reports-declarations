@@ -1,8 +1,16 @@
-# Declarations of terms tracked in the *dsa-reports* collection
+# DSA Systemic Risks Reports Archive
 
-The terms in this collection are declared by <!-- customize to your context -->the Open Terms Archive Core Team<!-- until here --> and tracked using [Open Terms Archive](https://opentermsarchive.org).
+The European [Digital Services Act article 34](https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng#art_34) mandates very large online platforms and search engines (VLOPSEs) to publish systemic risk assessments “at least once every year”. [Open Terms Archive](https://opentermsarchive.org/) makes these reports available independently from platforms hosting, and tracks any changes applied to the reports after they are published. This effort ensures the long term preservation of these documents to support research and guarantee platform accountability.
 
 You can [explore the tracked versions](https://github.com/OpenTermsArchive/dsa-reports-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/dsa-reports-versions/releases) in the `OpenTermsArchive/dsa-reports-versions` repository.
+
+## Contact
+
+Reach out to the team at [`contact@opentermsarchive.org`](mailto:contact@opentermsarchive.org?subject=DSA%20Systemic%20Risks%20Reports).
+
+## Credits
+
+This collection was created as a collaboration between [Open Terms Archive](https://opentermsarchive.org/) and [CheckFirst](https://checkfirst.network) as part of the [Hack the DSA](https://regulation-tech.cnam.fr/hack-the-dsa/) hackathon hosted by the CNAM’s _Chaire sur la Modération des Contenus_ in October 2025.
 
 ## Scope
 
