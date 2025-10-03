@@ -1,6 +1,10 @@
 {
   "name": "Apple",
   "terms": {
+    "Reports List": {
+      "fetch": "https://www.apple.com/legal/dsa/ie/",
+      "select": ".cmp-contentfragment"
+    },
     "Systemic Risks — 2023": {
       "fetch": "https://www.apple.com/legal/dsa/20232808_app-store_risk-assessment-report_non-confidential.pdf"
     },
