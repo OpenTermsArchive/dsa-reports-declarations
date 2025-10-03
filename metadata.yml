@@ -1,21 +1,24 @@
 id: dsa-reports
-name: dsa-reports
+name: DSA reports
 tagline: ''
 description: ''
 dataset: https://github.com/OpenTermsArchive/dsa-reports-versions/releases
 declarations: https://github.com/OpenTermsArchive/dsa-reports-declarations
 versions: https://github.com/OpenTermsArchive/dsa-reports-versions
 snapshots: https://github.com/OpenTermsArchive/dsa-reports-snapshots
-donations: ''
-logo: ''
-languages: []
-jurisdictions: []
+languages:
+  - fr
+jurisdictions:
+  - FR
 trackingPeriods:
-  - startDate: 2025-10-03
-    schedule: "30 */12 * * *"
-    serverLocation: ''
+  - startDate: '2025-10-03'
+    schedule: 30 */12 * * *
+    serverLocation: Gravelines, FR
 governance:
-  OpenTermsArchive:
-    url: ''
-    logo: ''
-    roles: [administrator, curator, maintainer]
+  Open Terms Archive:
+    url: https://opentermsarchive.org
+    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+    roles:
+      - administrator
+      - curator
+      - maintainer
