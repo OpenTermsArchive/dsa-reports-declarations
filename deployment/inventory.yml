@@ -1,6 +1,6 @@
 all:
   hosts:
-    <your_server_hostname>:
-      ansible_user: <your_server_username>
-      ed25519_fingerprint: <your_server_ssh_fingerprint>
-      ota_source_repository: <your_repository_url>
+    51.38.36.133:
+      ansible_user: ota
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIEFAm4AcuJNKImivafpYxWxUnUl5BHOeLMQdN5B8OvHI
+      ota_source_repository: https://github.com/OpenTermsArchive/dsa-reports-declarations.git
