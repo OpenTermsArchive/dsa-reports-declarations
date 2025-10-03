@@ -19,6 +19,6 @@ governance:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
     roles:
-      - administrator
+      - sysadmin
       - curator
       - maintainer
