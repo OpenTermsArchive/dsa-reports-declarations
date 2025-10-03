@@ -1,0 +1,8 @@
+{
+  "name": "Instagram",
+  "terms": {
+    "Systemic Risks — 2024": {
+      "fetch": "https://transparency.meta.com/sr/dsa-sra_results_report-2024-instagram"
+    }
+  }
+}
