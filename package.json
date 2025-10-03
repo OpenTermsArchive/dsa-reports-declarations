@@ -4,9 +4,7 @@
   "scripts": {
     "lint": "ota lint",
     "lint:fix": "ota lint -- --fix",
-    "test": "ota lint && ota validate declarations",
-    "test:schema": "ota validate declarations --schema-only",
-    "test:modified": "ota validate declarations --modified",
+    "test": "ota lint && ota validate metadata",
     "test:metadata": "ota validate metadata",
     "start": "ota track",
     "start:collection-api": "ota serve",
