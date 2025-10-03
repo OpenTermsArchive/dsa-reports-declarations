@@ -1,0 +1,11 @@
+{
+  "name": "Google Maps",
+  "terms": {
+    "Systemic Risks — 2023": {
+      "fetch": "https://storage.googleapis.com/transparencyreport/report-downloads/dsa-risk-assessment_2023-8-28_2023-8-28_en_v1.pdf"
+    },
+    "Systemic Risks — 2024": {
+      "fetch": "https://storage.googleapis.com/transparencyreport/report-downloads/dsa-risk-assessment_2024-8-28_2024-8-28_en_v1.pdf"
+    }
+  }
+}
