@@ -1,6 +1,6 @@
 all:
   hosts:
-    162.19.74.224:
-      ansible_user: debian
-      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIJkjE1KIbUcoClK+iKLR5ZvmdXMD/eXWghHdenFeJz4c
-      ota_source_repository: https://github.com/OpenTermsArchive/demo-declarations.git
+    <your_server_hostname>:
+      ansible_user: <your_server_username>
+      ed25519_fingerprint: <your_server_ssh_fingerprint>
+      ota_source_repository: <your_repository_url>
