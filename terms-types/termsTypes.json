@@ -1,0 +1,48 @@
+{
+  "Reports List": {
+    "topic": "all available reports",
+    "obligee": "VLOPSE"
+  },
+  "Systemic Risks — 2023": {
+    "topic": "systemic risks brought by the service in the European Union in 2023",
+    "obligee": "VLOPSE",
+    "references": {
+      "🇪🇺 DSA article §34": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng#art_34"
+    }
+  },
+  "Systemic Risks — 2024": {
+    "topic": "systemic risks brought by the service in the European Union in 2024",
+    "obligee": "VLOPSE",
+    "references": {
+      "🇪🇺 DSA article §34": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng#art_34"
+    }
+  },
+  "Systemic Risks — 2025": {
+    "topic": "systemic risks brought by the service in the European Union in 2025",
+    "obligee": "VLOPSE",
+    "references": {
+      "🇪🇺 DSA article §34": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng#art_34"
+    }
+  },
+  "Systemic Risks — 2026": {
+    "topic": "systemic risks brought by the service in the European Union in 2026",
+    "obligee": "VLOPSE",
+    "references": {
+      "🇪🇺 DSA article §34": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng#art_34"
+    }
+  },
+  "Systemic Risks — 2027": {
+    "topic": "systemic risks brought by the service in the European Union in 2027",
+    "obligee": "VLOPSE",
+    "references": {
+      "🇪🇺 DSA article §34": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng#art_34"
+    }
+  },
+  "Systemic Risks — 2028": {
+    "topic": "systemic risks brought by the service in the European Union in 2028",
+    "obligee": "VLOPSE",
+    "references": {
+      "🇪🇺 DSA article §34": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng#art_34"
+    }
+  }
+}
