@@ -23,6 +23,15 @@
         "data",
         "code"
       ]
+    },
+    {
+      "login": "herve-checkfirst",
+      "name": "Hervé Letoqueux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/229624720?v=4",
+      "profile": "https://github.com/herve-checkfirst",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "repoType": "github",
