@@ -1,0 +1,11 @@
+{
+  "name": "Bing",
+  "terms": {
+    "Systemic Risks — 2023": {
+      "fetch": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft%20Bing%20DSA%20Systemic%20Risk%20Assessment%20Report%20-%20August%202023.pdf"
+    },
+    "Systemic Risks — 2024": {
+      "fetch": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp//microsoft/final/en-us/microsoft-brand/documents/August-2024-Microsoft-Bing-Systemic-Risk-Assessment-Report-EU-Digital-Services-Act.pdf"
+    }
+  }
+}

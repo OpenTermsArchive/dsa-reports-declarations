@@ -1,0 +1,11 @@
+{
+  "name": "Zalando",
+  "terms": {
+    "Systemic Risks — 2023": {
+      "fetch": "https://corporate.zalando.com/sites/default/files/media-download/Zalando-SE_DSA_Risk-Report_2023.pdf"
+    },
+    "Systemic Risks — 2024": {
+      "fetch": "https://corporate.zalando.com/sites/default/files/media-download/Zalando-SE_DSA_Risk-Report_2024.pdf"
+    }
+  }
+}
