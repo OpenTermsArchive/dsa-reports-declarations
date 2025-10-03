@@ -6,8 +6,27 @@
   ],
   "contributors": [
     {
+      "login": "clementbiron",
+      "name": "Clément Biron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/364319?v=4",
+      "profile": "https://clementbiron.com",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "MattiSG",
+      "name": "Matti Schneider",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222463?v=4",
+      "profile": "https://mattischneider.fr",
+      "contributions": [
+        "data",
+        "code"
+      ]
+    },
+    {
       "login": "herve-checkfirst",
-      "name": "herve@checkfirst",
+      "name": "Hervé Letoqueux",
       "avatar_url": "https://avatars.githubusercontent.com/u/229624720?v=4",
       "profile": "https://github.com/herve-checkfirst",
       "contributions": [
