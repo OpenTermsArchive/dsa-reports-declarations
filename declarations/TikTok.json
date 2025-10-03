@@ -3,7 +3,8 @@
   "terms": {
     "Reports List": {
       "fetch": "https://www.tiktok.com/transparency/en/dsa-transparency",
-      "select": "#dsa-transparency-richText-01"
+      "select": "#dsa-transparency-richText-01",
+      "executeClientScripts": true
     },
     "Systemic Risks — 2023": {
       "fetch": "https://sf16-va.tiktokcdn.com/obj/eden-va2/zayvwlY_fjulyhwzuhy[/ljhwZthlaukjlkulzlp/DSA_H2_2024/TikTok-DSA-Risk-Assessment-Report-2023.pdf"
