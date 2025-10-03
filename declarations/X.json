@@ -1,0 +1,11 @@
+{
+  "name": "X",
+  "terms": {
+    "Systemic Risks — 2023": {
+      "fetch": "https://transparency.x.com/content/dam/transparency-twitter/dsa/dsa-sra/dsa-sra-2023/TIUC-DSA-SRA-Report-2023.pdf"
+    },
+    "Systemic Risks — 2024": {
+      "fetch": "https://transparency.x.com/content/dam/transparency-twitter/dsa/dsa-sra/dsa-sra-2024/TIUC-DSA-SRA-Report-2024.pdf"
+    }
+  }
+}
