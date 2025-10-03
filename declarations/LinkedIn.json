@@ -1,6 +1,10 @@
 {
   "name": "LinkedIn",
   "terms": {
+    "Reports List": {
+      "fetch": "https://www.linkedin.com/help/linkedin/answer/a1678508",
+      "select": ".article-content__rich-text"
+    },
     "Systemic Risks — 2023": {
       "fetch": "https://content.linkedin.com/content/dam/help/tns/en/LinkedIn-2022-2023-DSA-Systemic-Risk-Assessment-Report.pdf"
     },

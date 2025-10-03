@@ -1,6 +1,10 @@
 {
   "name": "Pinterest",
   "terms": {
+    "Reports List": {
+      "fetch": "https://help.pinterest.com/en/article/digital-services-act",
+      "select": "#section-32212"
+    },
     "Systemic Risks — 2023": {
       "fetch": "https://help.pinterest.com/sites/pinhelp/files/dsa/Pinterest-DSA-Risk-Assessment-and-Mitigation-Report-Aug-25-2023.pdf"
     },
