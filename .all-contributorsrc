@@ -4,8 +4,19 @@
   "files": [
     ".all-contributors.md"
   ],
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "herve-checkfirst",
+      "name": "herve@checkfirst",
+      "avatar_url": "https://avatars.githubusercontent.com/u/229624720?v=4",
+      "profile": "https://github.com/herve-checkfirst",
+      "contributions": [
+        "data"
+      ]
+    }
+  ],
   "repoType": "github",
   "commitConvention": "none",
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "commitType": "docs"
 }
