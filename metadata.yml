@@ -12,7 +12,7 @@ jurisdictions:
   - FR
 trackingPeriods:
   - startDate: '2025-10-03'
-    schedule: 30 */12 * * *
+    schedule: 0 4 * * 0
     serverLocation: Gravelines, FR
 governance:
   Open Terms Archive:
