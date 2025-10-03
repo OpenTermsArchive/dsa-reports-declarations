@@ -1,6 +1,10 @@
 {
   "name": "X",
   "terms": {
+    "Reports List": {
+      "fetch": "https://transparency.x.com/en/reports/dsa-risk-assessment-report",
+      "select": ".ac03-stack--full-width"
+    },
     "Systemic Risks — 2023": {
       "fetch": "https://transparency.x.com/content/dam/transparency-twitter/dsa/dsa-sra/dsa-sra-2023/TIUC-DSA-SRA-Report-2023.pdf"
     },
