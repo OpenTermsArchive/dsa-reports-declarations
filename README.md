@@ -24,4 +24,4 @@ While engine updates follow the [semantic versioning](https://semver.org) standa
 
 ## License
 
-The code in this repository is distributed under the GNU Affero General Public Licence (AGPL) v3.0.
+The code in this repository is distributed under the European Union Public License (EUPL) v1.2.
