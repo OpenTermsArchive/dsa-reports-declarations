@@ -1,7 +1,7 @@
 {
   "name": "@opentermsarchive/terms-types",
   "version": "2.1.0",
-  "description": "Database of types of terms of service (“agreement”, “policy”, “guidelines”…) under which a service is delivered",
+  "description": "Systemic risks specific terms types, used only to allow validation, these are not actual terms types.",
   "homepage": "https://github.com/OpenTermsArchive/terms-document-types#readme",
   "bugs": {
     "url": "https://github.com/OpenTermsArchive/terms-document-types/issues"
