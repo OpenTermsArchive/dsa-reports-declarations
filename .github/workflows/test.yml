@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
+      - run: npm ci
       - run: npm run test:metadata
 
   validate_schema:
@@ -24,10 +24,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
+      - run: npm ci
       - run: npm run test:schema
 
   lint:
@@ -36,10 +36,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
+      - run: npm ci
       - run: npm run lint
       
   validate_modified_declarations:
@@ -50,10 +50,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0 # fetch all history for all branches and tags
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
+      - run: npm ci
       - run: npm run test:modified
       - name: Generate artifacts
         if: ${{ failure() }}
