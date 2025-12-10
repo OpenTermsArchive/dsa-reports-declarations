@@ -14,6 +14,6 @@ updates:
       - dependency-name: "@opentermsarchive/engine"
     # Open Terms Archive recommends to always add the collection maintainer team as a reviewer so they are notified of the update
     reviewers:
-      - "OpenTermsArchive/dsa-reports-declarations"
+      - "OpenTermsArchive/dsa-reports"
     # Avoid having too many open pull requests
     open-pull-requests-limit: 1
