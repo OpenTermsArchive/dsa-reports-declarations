@@ -4,5 +4,11 @@
       "fetch": "https://trustworthyshopping.aboutamazon.com/attachment-file-eu-dsa-risk-assessment-report-amazon-2023#pdf",
       "validUntil": "2025-11-30T04:00:07Z"
     }
+  ],
+  "Systemic Risks — 2024": [
+    {
+      "fetch": "https://trustworthyshopping.aboutamazon.com/attachment-file-eu-dsa-risk-assessment-report-amazon-2024-pdf",
+      "validUntil": "2025-11-30T04:00:07Z"
+    }
   ]
 }
