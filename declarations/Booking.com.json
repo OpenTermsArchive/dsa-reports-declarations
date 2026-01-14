@@ -1,11 +1,25 @@
 {
   "name": "Booking.com",
   "terms": {
+    "Reports List": {
+      "fetch": "https://www.booking.com/content/dsa.fr.html",
+      "select": "main"
+    },
     "Systemic Risks — 2023": {
       "fetch": "https://r-xx.bstatic.com/data/mobile/b1a2d639-1cba-487b-9f26-c6c287bd2f5d.pdf"
     },
     "Systemic Risks — 2024": {
-      "fetch": "https://r-xx.bstatic.com/data/mobile/021ed0bb-5ed7-467b-858e-cdfbf1adf699.pdf"
+      "combine": [
+        {
+          "fetch": "https://q-xx.bstatic.com/data/mobile/2024%20-%20Systemic%20risk%20assessment%20report.pdf"
+        },
+        {
+          "fetch": "https://r-xx.bstatic.com/data/mobile/2024%20-%20Mitigation%20measures%20completion%20report.pdf"
+        }
+      ]
+    },
+    "Systemic Risks — 2025": {
+      "fetch": "https://q-xx.bstatic.com/data/mobile/2025%20-%20Systemic%20risk%20assessment%20and%20mitigation%20measures%20completion%20report.pdf"
     }
   }
 }
