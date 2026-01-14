@@ -1,8 +1,18 @@
 {
   "name": "Wikipedia",
   "terms": {
+    "Reports List": {
+      "fetch": "https://foundation.wikimedia.org/wiki/Legal:Wikimedia_Foundation_EU_Compliance/DSA_Publication_Archive",
+      "select": {
+        "startAfter": ".mw-pt-languages",
+        "endBefore": "#catlinks"
+      }
+    },
     "Systemic Risks — 2023": {
-      "fetch": "https://foundation.wikimedia.org/wiki/File:Wikipedia_DSA_SRA_submission_cover_note_31Aug2023.pdf"
+      "fetch": "https://upload.wikimedia.org/wikipedia/foundation/5/5a/Wikipedia_DSA_SRA_submission_cover_note_31Aug2023.pdf"
+    },
+    "Systemic Risks — 2025": {
+      "fetch": "https://upload.wikimedia.org/wikipedia/foundation/a/a6/Wikipedia_DSA_SRAM_submission_cover_note_09Sept2025.pdf"
     }
   }
 }
