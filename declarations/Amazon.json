@@ -3,7 +3,7 @@
   "terms": {
     "Reports List": {
       "fetch": "https://trustworthyshopping.aboutamazon.com/resources/digital-services-act-dsa",
-      "select": ".ResourcesList"
+      "select": "main"
     },
     "Systemic Risks — 2023": {
       "fetch": "https://trustworthyshopping.aboutamazon.com/eu-dsa-risk-assessment-report-amazon-2023#pdf"
