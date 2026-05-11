@@ -10,6 +10,9 @@
     },
     "Systemic Risks — 2024": {
       "fetch": "https://www.apple.com/legal/dsa/20241212_app-store_risk-assessment-report_non-confidential.pdf"
+    },
+    "Systemic Risks — 2025": {
+      "fetch": "https://www.apple.com/legal/dsa/20251119_app-store_risk-assessment-report_non-confidential.pdf"
     }
   }
 }
