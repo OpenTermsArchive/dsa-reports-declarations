@@ -1,11 +1,15 @@
 {
   "name": "XVideos",
   "terms": {
+    "Reports List": {
+      "fetch": "https://info.xvideos.net/legal/mandatory-information",
+      "select": "#main"
+    },
     "Systemic Risks — 2024": {
-      "fetch": "https://cdn77-pic.xvideos-cdn.com/videos/transparency/WGCZ_Risk_Assessment_Risk_Management_REPORT_1ST.pdf"
+      "fetch": "https://public-assets.xvideos-cdn.com/transparency/WGCZ_Risk_Assessment_Risk_Management_REPORT_1ST.pdf"
     },
     "Systemic Risks — 2025": {
-      "fetch": "https://cdn77-pic.xvideos-cdn.com/videos/transparency/WGCZ_XVIDEOS_Risk-Assessment-Report_23_April_2025.pdf"
+      "fetch": "https://public-assets.xvideos-cdn.com/transparency/WGCZ_XVIDEOS_Risk-Assessment-Report_23_April_2025.pdf"
     }
   }
 }
