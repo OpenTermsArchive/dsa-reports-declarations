@@ -1,0 +1,15 @@
+{
+  "name": "XNXX",
+  "terms": {
+    "Reports List": {
+      "fetch": "https://info.xnxx.com/legal/mandatory-information",
+      "select": "#main"
+    },
+    "Systemic Risks — 2024": {
+      "fetch": "https://public-assets.xnxx-cdn.com/transparency/XNXX%20Risk%20Assessment%20Report%202024.pdf"
+    },
+    "Systemic Risks — 2025": {
+      "fetch": "https://public-assets.xnxx-cdn.com/transparency/XNXX%20Risk%20Assessment%20Report%202025.pdf"
+    }
+  }
+}
