@@ -1,6 +1,11 @@
 {
   "name": "Google Play",
   "terms": {
+    "Reports List": {
+      "fetch": "https://transparencyreport.google.com/",
+      "select": "#report-155",
+      "executeClientScripts": true
+    },
     "Systemic Risks — 2023": {
       "fetch": "https://storage.googleapis.com/transparencyreport/report-downloads/dsa-risk-assessment_2023-8-28_2023-8-28_en_v1.pdf"
     },
