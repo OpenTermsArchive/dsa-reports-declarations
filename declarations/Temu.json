@@ -1,0 +1,13 @@
+{
+  "name": "Temu",
+  "terms": {
+    "Reports List": {
+      "fetch": "https://www.temu.com/transparency-center-reports.html",
+      "select": "[role=\"main\"]",
+      "executeClientScripts": true
+    },
+    "Systemic Risks — 2025": {
+      "fetch": "https://dl.kwcdn.com/legal-report/20195053bec/84b7b92528bcbfe57a0c1e438f58f99c.pdf"
+    }
+  }
+}
