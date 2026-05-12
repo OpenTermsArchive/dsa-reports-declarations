@@ -1,0 +1,17 @@
+{
+  "name": "WhatsApp",
+  "terms": {
+    "Reports List": {
+      "fetch": "https://www.whatsapp.com/legal/transparencyreports",
+      "select": "#content-wrapper",
+      "filter": [
+        {
+          "removeQueryParams": [
+            "_nc_gid",
+            "oh"
+          ]
+        }
+      ]
+    }
+  }
+}
