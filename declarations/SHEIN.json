@@ -1,0 +1,13 @@
+{
+  "name": "SHEIN",
+  "terms": {
+    "Reports List": {
+      "fetch": "https://eur.shein.com/digital-service-act-a-1994.html",
+      "select": ".article-continer",
+      "executeClientScripts": true
+    },
+    "Systemic Risks — 2025": {
+      "fetch": "https://files-c.ltwebstatic.com/ccc/2025/12/19/17661349099679709.pdf"
+    }
+  }
+}
