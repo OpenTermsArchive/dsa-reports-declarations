@@ -8,7 +8,10 @@
         {
           "removeQueryParams": [
             "_nc_gid",
-            "oh"
+            "oh",
+            "_nc_ohc",
+            "_nc_oc",
+            "oe"
           ]
         }
       ]
