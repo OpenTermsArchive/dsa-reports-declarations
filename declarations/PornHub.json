@@ -3,7 +3,8 @@
   "terms": {
     "Reports List": {
       "fetch": "https://www.pornhub.com/information/eu_dsa",
-      "select": "#information_eu_dsa"
+      "select": "#information_eu_dsa",
+      "remove": "#changeLanguageWrapper"
     },
     "Systemic Risks — 2025": {
       "fetch": "https://ei.phncdn.com/static/misc/legal/Risk_Assessment_for_Pornhub_April_2025_1752958273.pdf"
