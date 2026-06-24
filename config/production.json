@@ -21,13 +21,7 @@
       }
     },
     "fetcher": {
-      "language": "en"
-    },
-    "notifier": {
-      "sendInBlue": {
-        "updatesListId": 0,
-        "updateTemplateId": 0
-      }
+      "language": "en-IE, en-GB, en"
     },
     "reporter": {
       "type": "github",
@@ -43,10 +37,18 @@
     },
     "collection-api": {
       "port": 3000,
-      "basePath": "/collection-api"
+      "basePath": "/collection-api",
+      "feed": {
+        "versionUrlTemplate": "https://github.com/OpenTermsArchive/dsa-reports-versions/commit/%VERSION_ID"
+      }
     },
     "logger": {
-      "timestampPrefix": false
+      "timestampPrefix": false,
+      "smtp": {
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
+      }
     }
   }
 }
