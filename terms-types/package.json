@@ -1,6 +1,6 @@
 {
   "name": "@opentermsarchive/terms-types",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Systemic risks specific terms types, used only to allow validation, these are not actual terms types.",
   "homepage": "https://github.com/OpenTermsArchive/terms-document-types#readme",
   "bugs": {
