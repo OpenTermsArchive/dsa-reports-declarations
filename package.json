@@ -16,7 +16,7 @@
     "dataset:schedule": "npm run dataset -- --publish --schedule"
   },
   "dependencies": {
-    "@opentermsarchive/engine": "16.2.0",
+    "@opentermsarchive/engine": "16.3.0",
     "@opentermsarchive/terms-types": "./terms-types"
   }
 }
