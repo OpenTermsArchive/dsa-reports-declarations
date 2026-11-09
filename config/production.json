@@ -32,14 +32,6 @@
     "fetcher": {
       "language": "en-IE, en-GB, en"
     },
-    "reporter": {
-      "type": "github",
-      "repositories": {
-        "declarations": "OpenTermsArchive/dsa-reports-declarations",
-        "versions": "OpenTermsArchive/dsa-reports-versions",
-        "snapshots": "OpenTermsArchive/dsa-reports-snapshots"
-      }
-    },
     "dataset": {
       "title": "dsa-reports",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/dsa-reports-versions"
@@ -53,6 +45,29 @@
     },
     "logger": {
       "timestampPrefix": false,
+      "smtp": {
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
+      }
+    }
+  },
+  "@opentermsarchive/issue-reporter": {
+    "type": "github",
+    "repositories": {
+      "declarations": "OpenTermsArchive/dsa-reports-declarations",
+      "versions": "OpenTermsArchive/dsa-reports-versions",
+      "snapshots": "OpenTermsArchive/dsa-reports-snapshots"
+    },
+    "collectionApi": {
+      "url": "http://127.0.0.1:3000/collection-api/v1"
+    },
+    "logger": {
+      "timestampPrefix": false,
+      "sendMailOnError": {
+        "to": "admin@opentermsarchive.org",
+        "from": "noreply@opentermsarchive.org"
+      },
       "smtp": {
         "host": "smtp-relay.brevo.com",
         "port": 587,
