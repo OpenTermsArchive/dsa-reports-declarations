@@ -51,5 +51,19 @@
         "username": "admin@opentermsarchive.org"
       }
     }
+  },
+  "@opentermsarchive/issue-reporter": {
+    "type": "github",
+    "repositories": {
+      "declarations": "OpenTermsArchive/dsa-reports-declarations",
+      "versions": "OpenTermsArchive/dsa-reports-versions",
+      "snapshots": "OpenTermsArchive/dsa-reports-snapshots"
+    },
+    "collectionApi": {
+      "url": "http://127.0.0.1:3000/collection-api/v1"
+    },
+    "logger": {
+      "timestampPrefix": false
+    }
   }
 }
