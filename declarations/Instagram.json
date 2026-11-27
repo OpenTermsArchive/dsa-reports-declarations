@@ -1,6 +1,11 @@
 {
   "name": "Instagram",
   "terms": {
+    "Reports List": {
+      "fetch": "https://transparency.meta.com/reports/regulatory-transparency-reports/",
+      "select": "#mdc-main-content",
+      "executeClientScripts": true
+    },
     "Systemic Risks — 2024": {
       "fetch": "https://transparency.meta.com/sr/dsa-sra_results_report-2024-instagram#pdf"
     },
