@@ -3,8 +3,7 @@
   "terms": {
     "Reports List": {
       "fetch": "https://transparency.x.com/en/reports/dsa-risk-assessment-report",
-      "select": "#main",
-      "remove": "[aria-labelledby^=\"notice-floating\"]",
+      "select": "#main-content",
       "executeClientScripts": true
     },
     "Systemic Risks — 2023": {
